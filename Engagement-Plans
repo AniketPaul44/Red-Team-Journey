@@ -1,1 +1,84 @@
-abc
+# 🛡️ Red Team Engagement Plan – Simulated Operation
+
+## 🧠 Objective:
+Simulate a realistic adversary attack targeting an internal corporate network to assess the organization’s detection, response, and mitigation capabilities.
+
+> *This engagement is for educational and ethical practice only. Based on TryHackMe's "Red Team Engagement Plan" room.*
+
+---
+
+## 🔍 Scope of Engagement
+
+| Item              | Details                          |
+|-------------------|----------------------------------|
+| Target Company    | `Acme Corp` (simulated)          |
+| Environment       | Internal network (AD Lab)        |
+| Timeframe         | 5 days                           |
+| Team Members      | Red Team – Solo (Aniket Pal)     |
+| Objective         | Domain Admin access + data exfil |
+| Allowed Attacks   | Social Engineering, AD attacks   |
+| Disallowed Attacks| Denial of Service (DoS), Ransom  |
+
+---
+
+## ⚙️ Rules of Engagement (RoE)
+
+- 🛡️ **No permanent damage** to systems
+- 👀 **Report** all vulnerabilities found
+- 📁 **Store data securely**
+- 🔒 Avoid triggering **blue team detection** (stealth approach)
+- 📞 Daily communication updates with project lead (simulated)
+
+---
+
+## 🔗 Kill Chain Phase Overview (Based on MITRE ATT&CK)
+
+| Phase              | Tools Used                     | Description |
+|--------------------|--------------------------------|-------------|
+| Reconnaissance     | Whois, Nmap                    | External discovery |
+| Weaponization      | Custom payload + MSFVenom      | Payload creation |
+| Delivery           | Phishing email (simulated)     | Entry vector |
+| Exploitation       | EternalBlue, LPE (WinPrivEsc)  | Access via known exploit |
+| C2 Setup           | Ngrok + Netcat, CobaltStrike   | Setup persistence and remote access |
+| Post-Exploitation  | Mimikatz, BloodHound           | Lateral movement and creds dump |
+| Exfiltration       | Rclone + Obfuscation           | Transfer sensitive files |
+| Reporting          | Full markdown report created   | Includes timeline and artifacts |
+
+---
+
+## 📁 Deliverables
+
+- [x] Initial Engagement Plan ✅
+- [x] Attack Chain Summary ✅
+- [x] Indicators of Compromise ✅
+- [x] Tools + Tactics Used ✅
+- [x] Recommendations ✅
+
+---
+
+## 📸 Screenshots (Optional)
+
+Add relevant screenshots to the `/Images/` folder:
+- Engagement scope table
+- BloodHound graph
+- C2 beacon
+
+---
+
+## 🧠 Lessons Learned
+
+- **Planning is everything**: Real red teaming isn’t just tools — it’s about planning, communication, and safety.
+- **Legal awareness**: Having a law background helped me understand the importance of RoE and ethical limitations.
+- **Documentation is key**: A clean report builds credibility even for student hackers.
+
+---
+
+## 📚 References
+
+- [TryHackMe – Red Team Engagement Plan Room](https://tryhackme.com/room/redteamengagements)
+- [MITRE ATT&CK Framework](https://attack.mitre.org/)
+
+---
+
+> “In red teaming, a well-documented, ethical, and goal-oriented approach is more powerful than a flashy exploit.”  
+> — Aniket Paul, Red Team Learner
