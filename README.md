@@ -58,7 +58,7 @@ If you're a beginner, feel free to fork and use this structure for your own lear
 
 ## 👋 Let's Connect
 
-- 💼 [LinkedIn – Aniket Paul](https://www.linkedin.com/in/aniket-paul-1a4809374/)
+- 💼 [LinkedIn – Aniket Paul](https://www.linkedin.com/in/aniket-paul-77370425a/)
 - 💻 [TryHackMe Profile](https://tryhackme.com/p/palaniket32327) 
 - 📧 aniketpaulofficial44@gmail.com 
 
